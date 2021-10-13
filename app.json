@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "MENTIS",
+    "slug": "MENTIS",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Mentis"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.Mentis"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
